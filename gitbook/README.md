@@ -109,3 +109,39 @@ Painting cycle :
 
 - Involving designers with shared language for better interface communication
 - Full flexbox layout
+
+## Lightning talks 12:00 AM
+
+### React key prop
+
+- known performance issue
+- Performance benchmark with 5k iterations list with component render of 10ms
+
+Functional component
+Key ~60.1ms
+NoKey ~60.3ms
+
+PureComponent
+Key ~1.3ms
+NoKey ~19.9ms
+
+>Always set keys !!!
+
+### Async Import chunks
+
+- stage-3 spec
+
+```js
+const React = await import('react');
+```
+
+Can be used to async components
+
+Suggested strategy :
+- split app and vendor code
+- split at route level (async)
+- split at component level (async)
+
+## Lunch 12:30 AM
+
+![](http://www.reddit.com/r/HamsterGifs/comments/2arxu3/hungry_hungry_hamster/)
