@@ -144,4 +144,4 @@ Suggested strategy :
 
 ## Lunch 12:30 AM
 
-![](http://www.reddit.com/r/HamsterGifs/comments/2arxu3/hungry_hungry_hamster/)
+![](https://media3.giphy.com/media/GnCc88zZhSVUc/giphy.gif?response_id=591eca088ce1123c7f7f2a76)
