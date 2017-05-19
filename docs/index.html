@@ -252,6 +252,36 @@ withLoading(&apos;Loading&apos;)(&lt;section /&gt;);
 <li>Involving designers with shared language for better interface communication</li>
 <li>Full flexbox layout</li>
 </ul>
+<h2 id="lightning-talks-1200-am">Lightning talks 12:00 AM</h2>
+<h3 id="react-key-prop">React key prop</h3>
+<ul>
+<li>known performance issue</li>
+<li>Performance benchmark with 5k iterations list with component render of 10ms</li>
+</ul>
+<p>Functional component
+Key ~60.1ms
+NoKey ~60.3ms</p>
+<p>PureComponent
+Key ~1.3ms
+NoKey ~19.9ms</p>
+<blockquote>
+<p>Always set keys !!!</p>
+</blockquote>
+<h3 id="async-import-chunks">Async Import chunks</h3>
+<ul>
+<li>stage-3 spec</li>
+</ul>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> React = <span class="hljs-keyword">await</span> <span class="hljs-keyword">import</span>(<span class="hljs-string">&apos;react&apos;</span>);
+</code></pre>
+<p>Can be used to async components</p>
+<p>Suggested strategy :</p>
+<ul>
+<li>split app and vendor code</li>
+<li>split at route level (async)</li>
+<li>split at component level (async)</li>
+</ul>
+<h2 id="lunch-1230-am">Lunch 12:30 AM</h2>
+<p><img src="http://www.reddit.com/r/HamsterGifs/comments/2arxu3/hungry_hungry_hamster/" alt=""></p>
 
                                 
                                 </section>
@@ -291,7 +321,7 @@ withLoading(&apos;Loading&apos;)(&lt;section /&gt;);
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Mobx 10:00AM","level":"1.1","depth":1,"next":{"title":"Composition 10:30AM","level":"1.2","depth":1,"anchor":"#composition-1030-am","path":"README.md","ref":"README.md#composition-1030-am","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2017-05-19T10:00:12.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-05-19T10:09:15.101Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Mobx 10:00AM","level":"1.1","depth":1,"next":{"title":"Composition 10:30AM","level":"1.2","depth":1,"anchor":"#composition-1030-am","path":"README.md","ref":"README.md#composition-1030-am","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2017-05-19T10:30:36.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-05-19T10:31:14.689Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
