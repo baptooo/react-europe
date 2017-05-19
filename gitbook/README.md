@@ -230,6 +230,50 @@ New "react-relay" library for react needs
 
 >Announcing Relay v1.0.0 !
 
-### Animating Virtual DOM 4:00 PM
+**Deploying**
 
+![](./assets/relay_deploy.jpg)
+
+**Deployed**
+
+![](./assets/relay_deployed.jpg)
+
+## Animating Virtual DOM 4:00 PM
+
+twitter@sarah_edo
+
+The future : FIBER \o/ (React 16)
+
+- Animation update preferred to data update
+- Priority-based scheduling of updates
+
+>"So what" factor : User attention span is short (2 seconds)
+
+Without animation user is badly notified of any content updates
+
+> Goran Rakic loaders collection
+
+SVG offers very strong performance and tiny weight
+
+### Pro tip !
+Animation duration hierarchization inspired by HTML headline tags
+
+For example :
+- **T1** - 1s
+- **T2** : .5s
+etc.
+
+**MO.js** : motion library
+
+>js SVG getTotalLenght on shape to get dash (stroke) length
+
+Motion animation comparison
+
+![](./assets/motion_tools.jpg)
+
+GSAP rules them all
+
+![](./assets/motion_gsap.jpg)
+
+> react-transition-group / react-transition-group-plus
 
