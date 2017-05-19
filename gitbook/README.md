@@ -197,4 +197,7 @@ Basically React will wrap every THREE mesh and manage its rendering.
 npm i -g react-vr-cli
 ```
 
+## Functional && Reactive 2:30 PM
 
+![](./assets/frp1.jpg)
+![](./assets/frp2.jpg)
