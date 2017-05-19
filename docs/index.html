@@ -204,6 +204,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.10" data-path="./">
+            
+                <a href="./#react-as-a-platform-430-pm">
+            
+                    
+                    React as a Platform 4:30 PM
+            
+                </a>
+            
+
+            
+        </li>
+    
 
     
 
@@ -471,6 +484,76 @@ etc.</li>
 <blockquote>
 <p>react-transition-group / react-transition-group-plus</p>
 </blockquote>
+<h2 id="react-as-a-platform-430-pm">React as a Platform 4:30 PM</h2>
+<p>twitter@intelligibabble</p>
+<p><strong>Step 1</strong> : 3 different platforms</p>
+<ul>
+<li>Swift</li>
+<li>Java</li>
+<li>React / JS</li>
+</ul>
+<p><strong>Step 2</strong> : react-native</p>
+<ul>
+<li>mutualization for Android and IOS</li>
+</ul>
+<p><strong>Step 3</strong></p>
+<ul>
+<li>react native for the web</li>
+</ul>
+<blockquote>
+<p>Write once, run anywhere ?</p>
+</blockquote>
+<p>React for :</p>
+<ul>
+<li>ubuntu</li>
+<li>windows</li>
+<li>osx</li>
+<li>ios</li>
+<li>android</li>
+<li>...</li>
+</ul>
+<blockquote>
+<p>React as a cross-platform solution</p>
+</blockquote>
+<p>Example with cnotainers :</p>
+<p>HTML rendering</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> { Div } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-dom&apos;</span>;
+</code></pre>
+<p>VR rendering</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> { View } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-vr&apos;</span>;
+</code></pre>
+<h3 id="introducing-react-prmitives">Introducing &quot;react-prmitives&quot;</h3>
+<p>Components isolation in a dedicated npm package for cross-platform needs</p>
+<p>Primitive components !</p>
+<ul>
+<li>View</li>
+<li>Text</li>
+<li>Image</li>
+<li>Stylesheet</li>
+<li>Touchable</li>
+<li>Animated</li>
+<li>Platform</li>
+</ul>
+<p>Each component is chosen to represent a specific category for basic interface uses</p>
+<p>View, Text, Image : interface structure
+Styleshet : visual representation
+Touchable : HMI</p>
+<p>Still possible to override react-primitives</p>
+<pre><code>import { inject } from &apos;react-primitives&apos;;
+import { View } from &apos;react-native&apos;;
+
+inject({ View });
+</code></pre><p>react-primitives will use react-native &quot;View&quot; component instead of default one</p>
+<h3 id="platform-extensions">Platform extensions</h3>
+<pre><code class="lang-js"><span class="hljs-comment">// Button.js</span>
+<span class="hljs-comment">// Button.ios.js</span>
+
+<span class="hljs-keyword">import</span> Button <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./Button&apos;</span>;
+</code></pre>
+<p>Component will be chosen according to the current platform built</p>
+<blockquote>
+<p>React in sketch plugin</p>
+</blockquote>
 
                                 
                                 </section>
@@ -510,7 +593,7 @@ etc.</li>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Mobx 10:00AM","level":"1.1","depth":1,"next":{"title":"Composition 10:30AM","level":"1.2","depth":1,"anchor":"#composition-1030-am","path":"README.md","ref":"README.md#composition-1030-am","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2017-05-19T14:43:33.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-05-19T14:46:40.417Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Mobx 10:00AM","level":"1.1","depth":1,"next":{"title":"Composition 10:30AM","level":"1.2","depth":1,"anchor":"#composition-1030-am","path":"README.md","ref":"README.md#composition-1030-am","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2017-05-19T15:32:15.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-05-19T15:32:26.461Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
@@ -518,6 +601,10 @@ etc.</li>
         
     <script src="gitbook/gitbook.js"></script>
     <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
     
         
         <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>

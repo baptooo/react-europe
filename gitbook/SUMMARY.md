@@ -7,3 +7,4 @@
 - [Functional && Reactive 2:30 PM](README.md#functional--reactive-230-pm)
 - [Relay 3:00 PM](README.md#relay-300-pm)
 - [Animating Virtual DOM 4:00 PM](README.md#animating-virtual-dom-400-pm)
+- [React as a Platform 4:30 PM](README.md#react-as-a-platform-430-pm)
