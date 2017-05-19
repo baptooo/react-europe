@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "gitbook serve docs",
-    "preversion": "gitbook build docs && git add -A ./docs"
+    "start": "gitbook serve gitbook docs",
+    "preversion": "gitbook build gitbook docs && git add -A ./docs"
   },
   "devDependencies": {
     "gitbook": "^3.2.2",
