@@ -1,1 +1,2 @@
-- [Mobx 10:30AM](README.md#mobx-1000-am)
+- [Mobx 10:00AM](README.md#mobx-1000-am)
+- [Composition 10:30AM](README.md#composition-1030-am)
