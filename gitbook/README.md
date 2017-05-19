@@ -162,6 +162,7 @@ Used on prod for Facebook VR videos / photospheres
 ### Dev tools
 
 chrome dev tools...
+CPU performance audit with timeline
 
 ### Techniqual stack
 
@@ -180,5 +181,20 @@ Core renderer using system APIS
 HMI management with Three.js and browser apis
 
 Layout with [facebook/yoga](https://facebook.github.io/yoga/)
+
+### HMI management
+
+Maximize usage of available device sensors (orientation)
+
+### Models
+
+using THREE basic mesh to create custom models for every component.
+Basically React will wrap every THREE mesh and manage its rendering.
+
+### Usage
+
+```js
+npm i -g react-vr-cli
+```
 
 
