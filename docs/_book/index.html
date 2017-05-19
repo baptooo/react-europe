@@ -216,6 +216,27 @@ withLoading(&apos;Loading&apos;)(&lt;section /&gt;);
 <li>isolation</li>
 <li>reusability</li>
 </ul>
+<h2 id="the-making-of-twitter-lite-1100-am">The making of Twitter Lite 11:00 AM</h2>
+<p>Issue : slow internet dominates</p>
+<ul>
+<li>47% 2G connection</li>
+<li>21% 4G</li>
+<li>other 3G</li>
+</ul>
+<p>The need of a very performant PWA</p>
+<p><strong>Performance optimization</strong></p>
+<p>Painting cycle :</p>
+<ul>
+<li>Splashscreen</li>
+<li>Header</li>
+<li>Content (First meaningful Paint)</li>
+<li>Interactive</li>
+</ul>
+<h3 id="working-ideas">Working ideas</h3>
+<ul>
+<li>Involving designers with shared language for better interface communication</li>
+<li>Full flexbox layout</li>
+</ul>
 
                                 
                                 </section>
@@ -251,7 +272,7 @@ withLoading(&apos;Loading&apos;)(&lt;section /&gt;);
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Mobx 10:30AM","level":"1.1","depth":1,"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2017-05-19T09:00:42.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-05-19T09:30:20.326Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Mobx 10:30AM","level":"1.1","depth":1,"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2017-05-19T09:52:36.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-05-19T09:53:35.779Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
@@ -259,10 +280,6 @@ withLoading(&apos;Loading&apos;)(&lt;section /&gt;);
         
     <script src="gitbook/gitbook.js"></script>
     <script src="gitbook/theme.js"></script>
-    
-        
-        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
-        
     
         
         <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
