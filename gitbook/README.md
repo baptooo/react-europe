@@ -359,3 +359,17 @@ Component will be chosen according to the current platform built
 
 > React in sketch plugin
 
+Punchline quote <3
+
+![](./assets/quote_react.jpg)
+
+## Declarative Animations 5:30 PM
+
+This talk was showing different kind of animation from famous interfaces such as facebook,
+google or airbnb.
+
+After what a live coding presentation was showing a way of developing a cash rain animation.
+
+## Humans and ELM 6:00 PM
+
+
