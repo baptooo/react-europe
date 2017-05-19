@@ -145,3 +145,40 @@ Suggested strategy :
 ## Lunch 12:30 AM
 
 ![](https://media3.giphy.com/media/GnCc88zZhSVUc/giphy.gif?response_id=591eca088ce1123c7f7f2a76)
+
+## React VR 2:00 PM
+
+>VR is hard
+
+Features
+- 2D basics
+- 3D Concepts
+- Multimedia
+
+Goal : easy access to VR with React
+
+Used on prod for Facebook VR videos / photospheres
+
+### Dev tools
+
+chrome dev tools...
+
+### Techniqual stack
+
+State :
+- Redux
+
+Testing :
+- flow + jest
+
+### Architecture
+
+**React VR Core**
+Core renderer using system APIS
+
+**React VR JS Runtime**
+HMI management with Three.js and browser apis
+
+Layout with [facebook/yoga](https://facebook.github.io/yoga/)
+
+
