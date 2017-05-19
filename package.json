@@ -1,0 +1,14 @@
+{
+  "name": "react-europe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "gitbook serve docs",
+    "preversion": "gitbook build docs && git add -A ./docs"
+  },
+  "devDependencies": {
+    "gitbook": "^3.2.2",
+    "gitbook-cli": "^2.3.0"
+  }
+}
