@@ -201,3 +201,35 @@ npm i -g react-vr-cli
 
 ![](./assets/frp1.jpg)
 ![](./assets/frp2.jpg)
+
+## Relay 3:00 PM
+
+**Responsiveness** : UI won't wait for server response to update
+
+GraphQL Fragments
+
+Thousands of components for each platform (web, mobile)
+
+Goal : Maximize client rendering, don't be network dependant
+
+Optimization roadmap :
+- defer working operation
+- memoization
+
+### Relay modern
+
+Application with Facebook : Loads 900ms faster !
+
+New relay compiler to optimize query and file splitting for result
+
+Removing react dependency :
+
+Giving the opportuiny to use every library to plug with Relay modern
+
+New "react-relay" library for react needs
+
+>Announcing Relay v1.0.0 !
+
+### Animating Virtual DOM 4:00 PM
+
+
