@@ -9,3 +9,5 @@
 - [Animating Virtual DOM 4:00 PM](README.md#animating-virtual-dom-400-pm)
 - [React as a Platform 4:30 PM](README.md#react-as-a-platform-430-pm)
 - [Declarative Animations 5:30 PM](README.md#declarative-animations-530-pm)
+- [Humans and ELM 6:00 PM](README.md#humans-and-elm-600-pm)
+- [React native at Facebook 6:30 PM](README.md#react-native-at-facebook-630-pm)

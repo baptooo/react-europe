@@ -372,4 +372,26 @@ After what a live coding presentation was showing a way of developing a cash rai
 
 ## Humans and ELM 6:00 PM
 
+https://medium.com/@ReactEurope/reacteurope-2017-interview-5-with-tereza-sokol-32037c54d7c4
 
+## React native at Facebook 6:30 PM
+
+Focus on data prefetching for better performance
+
+Experimentation :
+- A/B testing
+- consistency
+- load all experiments at startup and reuse them the entire app session
+- when RN is loaded, reuse those same values
+
+Goal was to improve loading sequence with data prefetching
+
+### When to use React Native
+
+good for
+- New features ; quick dev and results
+- Full screen views
+- Easy adaptation to webview
+
+bad for
+- small view embedding
