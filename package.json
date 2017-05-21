@@ -5,7 +5,10 @@
   "license": "MIT",
   "scripts": {
     "start": "gitbook serve gitbook docs",
-    "preversion": "gitbook build gitbook docs && git add -A ./docs"
+    "build:ebook": "gitbook epub gitbook ebook/react-europe.epub",
+    "build:web": "gitbook build gitbook docs",
+    "build": "yarn build:web && (yarn build:ebook || exit 0)",
+    "preversion": "yarn build && git add -A ./docs"
   },
   "devDependencies": {
     "gitbook": "^3.2.2",
